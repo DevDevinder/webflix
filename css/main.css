@@ -1,0 +1,51 @@
+*{/*add font*/
+    padding: 0;
+    margin: 0;
+    background: gray;
+}
+@font-face{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27);
+}
+a:link,
+a:visited{
+    text.decoration:none;
+    color:#333;
+
+}
+
+.navbar { 
+    background-color: red; 
+} 
+.signInContainer{
+    background-color: #efefee;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+.header {
+    /*add font*/
+padding 20px 0;
+}
+.header >h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin 0;
+    padding-bottom: 5px;
+    color: #000;
+}
+.header > 4{
+
+font-weight: 300;
+font-size: 14px;
+color: #333;
+}
+
+}
+.column{
+    background-color: #fff;
+    min-height: 300px;
+    max-width: 100%;
+    width: 450px;
+    box-shadow: rgba(0,0,0,1) 0 1px 2px;
+}
